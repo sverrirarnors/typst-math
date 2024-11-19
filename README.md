@@ -1,4 +1,4 @@
-# Typst-math Extension For Quarto
+# typst-math Extension For Quarto
 
 This extension converts the default LaTeX math blocks in Pandoc to Typst math blocks. This allows you to write Typst math inside inline Pandoc math (`$...$`) and Pandoc display math (`$$ ... $$`).
 
