@@ -21,8 +21,10 @@ Simply add the typst-math filter in your yaml header:
 ---
 title: "`typst-math` Example"
 format: typst
-filters:
-  - typst-math
+format:
+  typst:
+    filters:
+    - typst-math
 ---
 ```
 
@@ -33,6 +35,8 @@ $$
 [math here]
 $$
 ```
+
+This filter only works for the `typst` format.
 
 ## Example
 

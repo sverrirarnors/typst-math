@@ -1,8 +1,9 @@
 ---
 title: "`typst-math` Example"
-format: typst
-filters:
-  - typst-math
+format:
+  typst:
+    filters:
+    - typst-math
 ---
 
 This extension converts the default LaTeX math blocks in Pandoc to Typst math blocks.
